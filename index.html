@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Content</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="" rel="stylesheet" />
+    <link rel="icon" href="/logo.png" />
+    <style>
+      /* Additional CSS for full page height */
+    /* Additional CSS for full page height */
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-color: #343a40;
+      color: #fff;
+    }
+    .main-logo {
+      width: 200px;
+      height: 200px;
+    }
+    .content-section {
+      margin-top: 50px;
+    }
+    .endpoint-info {
+      margin-top: 20px;
+    }
+    .buy-upgrade-link {
+      color: #ffc107;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <img
+            src="/mainlogo.png"
+            class="main-logo bg-primary rounded-circle"
+            alt="main logo"
+          />
+          <h1 class="mt-4">API Content</h1>
+          <p class="lead">Welcome to this page</p>
+          <p class="mb-4">
+            Usage Info: This API provides data on currencies and
+            cryptocurrencies from various sources. You can access currency data
+            and crypto data through different endpoints.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <p>Endpoints:</p>
+        <ul>
+          <li>
+            <a href="/currency"> <strong>/currency</strong>: </a>Fetches
+            currency data from Google.
+          </li>
+          <li>
+            <a href="/crypto"><strong>/crypto</strong>:</a> Fetches
+            cryptocurrency data from Google.
+          </li>
+          <li>
+            <a href="/crypto25"><strong>/crypto25</strong>:</a> Fetches
+            cryptocurrency data (limited to 25) from Yahoo.
+          </li>
+          <li>
+            <a href="/crypto10"><strong>/crypto10</strong>:</a> Fetches
+            cryptocurrency data (limited to 10) from CoinMarketCap.
+          </li>
+        </ul>
+        
+      </div>
+      <p>Try going to any of the paths mentioned above to retrieve data.</p>
+      <div class="row content-section">
+        <div class="col-md-12">
+          <h2 class="text-center">Endpoints Pricing</h2>
+          <ul class="list-unstyled">
+            <li>
+              <a href="/currency"><strong>/currency</strong></a>: Fetches currency data from Google.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 100 requests per hour</li>
+                <li>Pricing Plan: Free</li>
+                <li><a href="#" class="buy-upgrade-link">Buy or Upgrade to Paid Plan</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/crypto"><strong>/crypto</strong></a>: Fetches cryptocurrency data from Google.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 100 requests per hour</li>
+                <li>Pricing Plan: Free</li>
+                <li><a href="#" class="buy-upgrade-link">Buy or Upgrade to Paid Plan</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/crypto25"><strong>/crypto25</strong></a>: Fetches cryptocurrency data (limited to 25) from Yahoo.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 50 requests per hour</li>
+                <li>Pricing Plan: Basic (Free Tier: 50 requests per hour, Premium Tier: Unlimited)</li>
+                <li><a href="#" class="buy-upgrade-link">Buy or Upgrade to Premium Plan</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/crypto10"><strong>/crypto10</strong></a>: Fetches cryptocurrency data (limited to 10) from CoinMarketCap.
+              <ul class="endpoint-info">
+                <li>Rate Limit: 10 requests per hour</li>
+                <li>Pricing Plan: Basic (Free Tier: 10 requests per hour, Premium Tier: Unlimited)</li>
+                <li><a href="#" class="buy-upgrade-link">Buy or Upgrade to Premium Plan</a></li>
+              </ul>
+            </li>
+          </ul>
+          <p class="mt-4">Note: Please adhere to the rate limits to ensure smooth operation of the API.</p>
+          <p>Try going to any of the paths mentioned above to retrieve data.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
