@@ -44,6 +44,7 @@ Please adhere to the rate limits to ensure smooth operation of the API.
 2. Install dependencies using `npm install`.
 3. Start the server using `npm start`.
 
+---
 ## Developer
 
 Please note that this API operates under a free license and is intended for non-commercial use only. Any commercial use of the data obtained through this API may be subject to legal restrictions.
@@ -51,7 +52,3 @@ Please note that this API operates under a free license and is intended for non-
 This API is developed by Raj Kapadia. For any queries or support, please leave a comment.
 
 © 2024 Raj Kapadia
-
----
-
-Feel free to customize the content further based on your preferences or additional details you'd like to include.
