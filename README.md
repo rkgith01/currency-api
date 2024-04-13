@@ -27,7 +27,7 @@ To use this API, simply make GET requests to the desired endpoint. The API will 
   - Pricing Plan: Free.
 
 - **/crypto25**:
-  - Rate Limit: 50 requests per month.
+  - Rate Limit: 500 requests per month.
   - Pricing Plan: Basic (Free Tier: 500 requests per month, Premium Tier: Unlimited). 
   - [Buy or Upgrade to Premium Plan](#).
 
